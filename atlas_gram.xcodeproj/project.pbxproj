@@ -18,9 +18,10 @@
 		CFE6250F270C0C3F00E0FE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE6250D270C0C3F00E0FE54 /* Main.storyboard */; };
 		CFE62511270C0C4100E0FE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE62510270C0C4100E0FE54 /* Assets.xcassets */; };
 		CFE62514270C0C4100E0FE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE62512270C0C4100E0FE54 /* LaunchScreen.storyboard */; };
-		CFE6251F270C0C4100E0FE54 /* Insta_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE6251E270C0C4100E0FE54 /* Insta_AppTests.swift */; };
-		CFE6252A270C0C4100E0FE54 /* Insta_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE62529270C0C4100E0FE54 /* Insta_AppUITests.swift */; };
+		CFE6251F270C0C4100E0FE54 /* atlas_gramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE6251E270C0C4100E0FE54 /* atlas_gramTests.swift */; };
+		CFE6252A270C0C4100E0FE54 /* atlas_gramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE62529270C0C4100E0FE54 /* atlas_gramUITests.swift */; };
 		D5E6C47B2D6CD196476F6B53 /* Pods_Insta_App_Insta_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A74FD02A09DCE7DEB1E002 /* Pods_Insta_App_Insta_AppUITests.framework */; };
+		EA0FFF9A271E58F900E045B3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FFF99271E58F900E045B3 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +61,14 @@
 		CFE62513270C0C4100E0FE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFE62515270C0C4100E0FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFE6251A270C0C4100E0FE54 /* atlas_gramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlas_gramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE6251E270C0C4100E0FE54 /* Insta_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_AppTests.swift; sourceTree = "<group>"; };
+		CFE6251E270C0C4100E0FE54 /* atlas_gramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlas_gramTests.swift; sourceTree = "<group>"; };
 		CFE62520270C0C4100E0FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFE62525270C0C4100E0FE54 /* atlas_gramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlas_gramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE62529270C0C4100E0FE54 /* Insta_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_AppUITests.swift; sourceTree = "<group>"; };
+		CFE62529270C0C4100E0FE54 /* atlas_gramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlas_gramUITests.swift; sourceTree = "<group>"; };
 		CFE6252B270C0C4100E0FE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E132B534027A8F45828B6E10 /* Pods_Insta_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B5FF8E60BB7FA429F5F596 /* Pods_Insta_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0FFF99271E58F900E045B3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				CF4FBE89270D1AA200E7FA72 /* LogInViewController.swift */,
 				CF4FBE8E270D1AB800E7FA72 /* FeedViewController.swift */,
 				CF462C9A270FA44D00DCB3D6 /* CameraViewController.swift */,
+				EA0FFF99271E58F900E045B3 /* CommentCell.swift */,
 				CF92F0DE2710EE6F0040501E /* PostCell.swift */,
 			);
 			path = atlas_gram;
@@ -152,7 +155,7 @@
 		CFE6251D270C0C4100E0FE54 /* atlas_gramTests */ = {
 			isa = PBXGroup;
 			children = (
-				CFE6251E270C0C4100E0FE54 /* Insta_AppTests.swift */,
+				CFE6251E270C0C4100E0FE54 /* atlas_gramTests.swift */,
 				CFE62520270C0C4100E0FE54 /* Info.plist */,
 			);
 			path = atlas_gramTests;
@@ -161,7 +164,7 @@
 		CFE62528270C0C4100E0FE54 /* atlas_gramUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CFE62529270C0C4100E0FE54 /* Insta_AppUITests.swift */,
+				CFE62529270C0C4100E0FE54 /* atlas_gramUITests.swift */,
 				CFE6252B270C0C4100E0FE54 /* Info.plist */,
 			);
 			path = atlas_gramUITests;
@@ -421,6 +424,7 @@
 				CF4FBE8F270D1AB800E7FA72 /* FeedViewController.swift in Sources */,
 				CF4FBE8A270D1AA200E7FA72 /* LogInViewController.swift in Sources */,
 				CF92F0DF2710EE6F0040501E /* PostCell.swift in Sources */,
+				EA0FFF9A271E58F900E045B3 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE6251F270C0C4100E0FE54 /* Insta_AppTests.swift in Sources */,
+				CFE6251F270C0C4100E0FE54 /* atlas_gramTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFE6252A270C0C4100E0FE54 /* Insta_AppUITests.swift in Sources */,
+				CFE6252A270C0C4100E0FE54 /* atlas_gramUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "Any iOS Simulator SDK arm64";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -573,6 +578,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "Any iOS Simulator SDK";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
